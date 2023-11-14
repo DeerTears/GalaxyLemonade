@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://badciaj3obdtg"
+path="res://.godot/imported/Spacestation_Weapon_Modular_Gun_Base.obj-110d0a97c9397becd52d88c777953eb3.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Spacestation_Weapon_Modular_Gun_Base.obj-110d0a97c9397becd52d88c777953eb3.mesh"]
+
+source_file="res://environments/industrial/parts/Spacestation_Weapon_Modular_Gun_Base.obj"
+dest_files=["res://.godot/imported/Spacestation_Weapon_Modular_Gun_Base.obj-110d0a97c9397becd52d88c777953eb3.mesh", "res://.godot/imported/Spacestation_Weapon_Modular_Gun_Base.obj-110d0a97c9397becd52d88c777953eb3.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

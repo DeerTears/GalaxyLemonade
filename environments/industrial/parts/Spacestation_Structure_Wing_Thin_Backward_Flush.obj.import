@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c31rik0eae532"
+path="res://.godot/imported/Spacestation_Structure_Wing_Thin_Backward_Flush.obj-16c159979e57cde1accd17dc026d928e.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Spacestation_Structure_Wing_Thin_Backward_Flush.obj-16c159979e57cde1accd17dc026d928e.mesh"]
+
+source_file="res://environments/industrial/parts/Spacestation_Structure_Wing_Thin_Backward_Flush.obj"
+dest_files=["res://.godot/imported/Spacestation_Structure_Wing_Thin_Backward_Flush.obj-16c159979e57cde1accd17dc026d928e.mesh", "res://.godot/imported/Spacestation_Structure_Wing_Thin_Backward_Flush.obj-16c159979e57cde1accd17dc026d928e.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

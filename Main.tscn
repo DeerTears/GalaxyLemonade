@@ -11,10 +11,10 @@ height = 1.0
 radius = 1.01
 
 [sub_resource type="BoxMesh" id="BoxMesh_eth8j"]
-size = Vector3(50, 0.5, 50)
+size = Vector3(1000, 0.5, 1000)
 
-[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_bix25"]
-points = PackedVector3Array(-25, -0.25, -25, -25, 0.25, -25, 25, -0.25, -25, -25, -0.25, 25, -25, 0.25, 25, 25, 0.25, -25, 25, -0.25, 25, 25, 0.25, 25)
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_tfwll"]
+points = PackedVector3Array(-500, -0.25, -500, -500, 0.25, -500, 500, -0.25, -500, -500, -0.25, 500, -500, 0.25, 500, 500, 0.25, -500, 500, -0.25, 500, 500, 0.25, 500)
 
 [sub_resource type="PanoramaSkyMaterial" id="PanoramaSkyMaterial_onjjv"]
 panorama = ExtResource("2_yhvag")
@@ -25,6 +25,8 @@ sky_material = SubResource("PanoramaSkyMaterial_onjjv")
 [sub_resource type="Environment" id="Environment_fsqsg"]
 background_mode = 2
 sky = SubResource("Sky_q27mu")
+ambient_light_color = Color(0, 0, 0.623529, 1)
+ambient_light_sky_contribution = 0.0
 
 [node name="Node3D" type="Node3D"]
 
@@ -73,19 +75,18 @@ current = true
 [node name="CameraTargetPosition" type="Marker3D" parent="Body"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5, 0)
 
-[node name="StaticBody3D" type="StaticBody3D" parent="."]
+[node name="LastResort" type="StaticBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -3, 0)
 
-[node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -2, 0)
+[node name="MeshInstance3D" type="MeshInstance3D" parent="LastResort"]
 mesh = SubResource("BoxMesh_eth8j")
 skeleton = NodePath("../..")
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -2, 0)
-shape = SubResource("ConvexPolygonShape3D_bix25")
+[node name="CollisionShape3D" type="CollisionShape3D" parent="LastResort"]
+shape = SubResource("ConvexPolygonShape3D_tfwll")
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="."]
 environment = SubResource("Environment_fsqsg")
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 0, 5, 0)
+transform = Transform3D(1, 0, 0, 0, -0.258819, 0.965926, 0, -0.965926, -0.258819, 0, 5, 0)

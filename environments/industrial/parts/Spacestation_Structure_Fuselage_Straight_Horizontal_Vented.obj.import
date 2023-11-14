@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://grmxk51vrj07"
+path="res://.godot/imported/Spacestation_Structure_Fuselage_Straight_Horizontal_Vented.obj-47e74f8b18b08698ee76c006e938ed85.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Spacestation_Structure_Fuselage_Straight_Horizontal_Vented.obj-47e74f8b18b08698ee76c006e938ed85.mesh"]
+
+source_file="res://environments/industrial/parts/Spacestation_Structure_Fuselage_Straight_Horizontal_Vented.obj"
+dest_files=["res://.godot/imported/Spacestation_Structure_Fuselage_Straight_Horizontal_Vented.obj-47e74f8b18b08698ee76c006e938ed85.mesh", "res://.godot/imported/Spacestation_Structure_Fuselage_Straight_Horizontal_Vented.obj-47e74f8b18b08698ee76c006e938ed85.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://21m1u41nhnr2"
+path="res://.godot/imported/Spacestation_Weapon_Flush_Mount_Cannon.obj-735bf356c7af36566b25618f875c8ca6.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Spacestation_Weapon_Flush_Mount_Cannon.obj-735bf356c7af36566b25618f875c8ca6.mesh"]
+
+source_file="res://environments/industrial/parts/Spacestation_Weapon_Flush_Mount_Cannon.obj"
+dest_files=["res://.godot/imported/Spacestation_Weapon_Flush_Mount_Cannon.obj-735bf356c7af36566b25618f875c8ca6.mesh", "res://.godot/imported/Spacestation_Weapon_Flush_Mount_Cannon.obj-735bf356c7af36566b25618f875c8ca6.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

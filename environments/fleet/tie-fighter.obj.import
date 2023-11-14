@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bq8n0oubdld05"
+path="res://.godot/imported/tie-fighter.obj-1358b152fa9117426f32ba4439daeb49.mesh"
+
+[deps]
+
+files=["res://.godot/imported/tie-fighter.obj-1358b152fa9117426f32ba4439daeb49.mesh"]
+
+source_file="res://environments/fleet/tie-fighter.obj"
+dest_files=["res://.godot/imported/tie-fighter.obj-1358b152fa9117426f32ba4439daeb49.mesh", "res://.godot/imported/tie-fighter.obj-1358b152fa9117426f32ba4439daeb49.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

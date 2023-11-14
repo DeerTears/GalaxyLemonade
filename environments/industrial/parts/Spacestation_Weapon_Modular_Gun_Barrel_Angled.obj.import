@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://djlhdmny865hs"
+path="res://.godot/imported/Spacestation_Weapon_Modular_Gun_Barrel_Angled.obj-5a9e15e38f2446086a9b3b16f6d415f6.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Spacestation_Weapon_Modular_Gun_Barrel_Angled.obj-5a9e15e38f2446086a9b3b16f6d415f6.mesh"]
+
+source_file="res://environments/industrial/parts/Spacestation_Weapon_Modular_Gun_Barrel_Angled.obj"
+dest_files=["res://.godot/imported/Spacestation_Weapon_Modular_Gun_Barrel_Angled.obj-5a9e15e38f2446086a9b3b16f6d415f6.mesh", "res://.godot/imported/Spacestation_Weapon_Modular_Gun_Barrel_Angled.obj-5a9e15e38f2446086a9b3b16f6d415f6.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

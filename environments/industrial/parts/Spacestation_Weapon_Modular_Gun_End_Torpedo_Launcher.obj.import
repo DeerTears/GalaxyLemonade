@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dw3kchwxjqw8i"
+path="res://.godot/imported/Spacestation_Weapon_Modular_Gun_End_Torpedo_Launcher.obj-6ffb05a42c448b3bf82cb9105f8cf8fd.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Spacestation_Weapon_Modular_Gun_End_Torpedo_Launcher.obj-6ffb05a42c448b3bf82cb9105f8cf8fd.mesh"]
+
+source_file="res://environments/industrial/parts/Spacestation_Weapon_Modular_Gun_End_Torpedo_Launcher.obj"
+dest_files=["res://.godot/imported/Spacestation_Weapon_Modular_Gun_End_Torpedo_Launcher.obj-6ffb05a42c448b3bf82cb9105f8cf8fd.mesh", "res://.godot/imported/Spacestation_Weapon_Modular_Gun_End_Torpedo_Launcher.obj-6ffb05a42c448b3bf82cb9105f8cf8fd.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

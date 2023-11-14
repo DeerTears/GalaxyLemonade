@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://nwuvig5hldsq"
+path="res://.godot/imported/Spacestation_Weapon_Modular_Gun_End_Cannon.obj-80f019758e5e9bcdc4aee23e74e27e00.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Spacestation_Weapon_Modular_Gun_End_Cannon.obj-80f019758e5e9bcdc4aee23e74e27e00.mesh"]
+
+source_file="res://environments/industrial/parts/Spacestation_Weapon_Modular_Gun_End_Cannon.obj"
+dest_files=["res://.godot/imported/Spacestation_Weapon_Modular_Gun_End_Cannon.obj-80f019758e5e9bcdc4aee23e74e27e00.mesh", "res://.godot/imported/Spacestation_Weapon_Modular_Gun_End_Cannon.obj-80f019758e5e9bcdc4aee23e74e27e00.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

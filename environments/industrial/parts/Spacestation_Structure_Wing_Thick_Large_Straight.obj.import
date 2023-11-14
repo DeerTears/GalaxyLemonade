@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://b0ig3ova0pkyb"
+path="res://.godot/imported/Spacestation_Structure_Wing_Thick_Large_Straight.obj-fbf875058c01ea57fdccf401c8fa617b.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Spacestation_Structure_Wing_Thick_Large_Straight.obj-fbf875058c01ea57fdccf401c8fa617b.mesh"]
+
+source_file="res://environments/industrial/parts/Spacestation_Structure_Wing_Thick_Large_Straight.obj"
+dest_files=["res://.godot/imported/Spacestation_Structure_Wing_Thick_Large_Straight.obj-fbf875058c01ea57fdccf401c8fa617b.mesh", "res://.godot/imported/Spacestation_Structure_Wing_Thick_Large_Straight.obj-fbf875058c01ea57fdccf401c8fa617b.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

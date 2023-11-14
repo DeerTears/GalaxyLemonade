@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bypfx707qyhvd"
+path="res://.godot/imported/Spacestation_Miscellaneous_Dish.obj-90184a4bdaf33ce4552690b5d55f2dea.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Spacestation_Miscellaneous_Dish.obj-90184a4bdaf33ce4552690b5d55f2dea.mesh"]
+
+source_file="res://environments/industrial/parts/Spacestation_Miscellaneous_Dish.obj"
+dest_files=["res://.godot/imported/Spacestation_Miscellaneous_Dish.obj-90184a4bdaf33ce4552690b5d55f2dea.mesh", "res://.godot/imported/Spacestation_Miscellaneous_Dish.obj-90184a4bdaf33ce4552690b5d55f2dea.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

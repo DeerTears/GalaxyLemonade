@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bbnyju0a1urmb"
+path="res://.godot/imported/Spacestation_Structure_Fuselage_Curved_Outer_Large_Mid.obj-d2c675c7b1ba376b76856a76a23fe214.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Spacestation_Structure_Fuselage_Curved_Outer_Large_Mid.obj-d2c675c7b1ba376b76856a76a23fe214.mesh"]
+
+source_file="res://environments/industrial/parts/Spacestation_Structure_Fuselage_Curved_Outer_Large_Mid.obj"
+dest_files=["res://.godot/imported/Spacestation_Structure_Fuselage_Curved_Outer_Large_Mid.obj-d2c675c7b1ba376b76856a76a23fe214.mesh", "res://.godot/imported/Spacestation_Structure_Fuselage_Curved_Outer_Large_Mid.obj-d2c675c7b1ba376b76856a76a23fe214.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

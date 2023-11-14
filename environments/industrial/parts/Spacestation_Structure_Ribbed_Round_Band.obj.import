@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c0hynqx618xk7"
+path="res://.godot/imported/Spacestation_Structure_Ribbed_Round_Band.obj-e27ccbacce798abeb9f8cafa3832c3fd.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Spacestation_Structure_Ribbed_Round_Band.obj-e27ccbacce798abeb9f8cafa3832c3fd.mesh"]
+
+source_file="res://environments/industrial/parts/Spacestation_Structure_Ribbed_Round_Band.obj"
+dest_files=["res://.godot/imported/Spacestation_Structure_Ribbed_Round_Band.obj-e27ccbacce798abeb9f8cafa3832c3fd.mesh", "res://.godot/imported/Spacestation_Structure_Ribbed_Round_Band.obj-e27ccbacce798abeb9f8cafa3832c3fd.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

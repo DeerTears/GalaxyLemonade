@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cov2fd7gughm0"
+path="res://.godot/imported/Spacestation_Propulsion_Thruster_Triple_Large.obj-cf0874d85c24281251482794fd7bef11.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Spacestation_Propulsion_Thruster_Triple_Large.obj-cf0874d85c24281251482794fd7bef11.mesh"]
+
+source_file="res://environments/industrial/parts/Spacestation_Propulsion_Thruster_Triple_Large.obj"
+dest_files=["res://.godot/imported/Spacestation_Propulsion_Thruster_Triple_Large.obj-cf0874d85c24281251482794fd7bef11.mesh", "res://.godot/imported/Spacestation_Propulsion_Thruster_Triple_Large.obj-cf0874d85c24281251482794fd7bef11.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

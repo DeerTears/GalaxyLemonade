@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://q0g387gh63l6"
+path="res://.godot/imported/Spacestation_Structure_Fuselage_Straight_Normal.obj-f91cb4cbcbc6405498c8637022c84cc4.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Spacestation_Structure_Fuselage_Straight_Normal.obj-f91cb4cbcbc6405498c8637022c84cc4.mesh"]
+
+source_file="res://environments/industrial/parts/Spacestation_Structure_Fuselage_Straight_Normal.obj"
+dest_files=["res://.godot/imported/Spacestation_Structure_Fuselage_Straight_Normal.obj-f91cb4cbcbc6405498c8637022c84cc4.mesh", "res://.godot/imported/Spacestation_Structure_Fuselage_Straight_Normal.obj-f91cb4cbcbc6405498c8637022c84cc4.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

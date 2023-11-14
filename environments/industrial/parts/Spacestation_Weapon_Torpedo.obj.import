@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c87oku1kiseul"
+path="res://.godot/imported/Spacestation_Weapon_Torpedo.obj-fe1f474473dc111a6c187bf74fcfeeb6.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Spacestation_Weapon_Torpedo.obj-fe1f474473dc111a6c187bf74fcfeeb6.mesh"]
+
+source_file="res://environments/industrial/parts/Spacestation_Weapon_Torpedo.obj"
+dest_files=["res://.godot/imported/Spacestation_Weapon_Torpedo.obj-fe1f474473dc111a6c187bf74fcfeeb6.mesh", "res://.godot/imported/Spacestation_Weapon_Torpedo.obj-fe1f474473dc111a6c187bf74fcfeeb6.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://divuqyy1isdoo"
+path="res://.godot/imported/Spacestation_Propulsion_Thruster_Single_Small_Housing_Mid.obj-63c5ecf2d62f021fae702449ce9902eb.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Spacestation_Propulsion_Thruster_Single_Small_Housing_Mid.obj-63c5ecf2d62f021fae702449ce9902eb.mesh"]
+
+source_file="res://environments/industrial/parts/Spacestation_Propulsion_Thruster_Single_Small_Housing_Mid.obj"
+dest_files=["res://.godot/imported/Spacestation_Propulsion_Thruster_Single_Small_Housing_Mid.obj-63c5ecf2d62f021fae702449ce9902eb.mesh", "res://.godot/imported/Spacestation_Propulsion_Thruster_Single_Small_Housing_Mid.obj-63c5ecf2d62f021fae702449ce9902eb.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

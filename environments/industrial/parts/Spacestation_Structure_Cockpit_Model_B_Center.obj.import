@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://ddmp3407a1mh1"
+path="res://.godot/imported/Spacestation_Structure_Cockpit_Model_B_Center.obj-043b495804728ea5db286fe9da94e248.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Spacestation_Structure_Cockpit_Model_B_Center.obj-043b495804728ea5db286fe9da94e248.mesh"]
+
+source_file="res://environments/industrial/parts/Spacestation_Structure_Cockpit_Model_B_Center.obj"
+dest_files=["res://.godot/imported/Spacestation_Structure_Cockpit_Model_B_Center.obj-043b495804728ea5db286fe9da94e248.mesh", "res://.godot/imported/Spacestation_Structure_Cockpit_Model_B_Center.obj-043b495804728ea5db286fe9da94e248.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

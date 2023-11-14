@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://s7g1gffd3jk5"
+path="res://.godot/imported/Spacestation_Structure_Runway_End.obj-f29c2b0c951697138ed3ffcd8f476915.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Spacestation_Structure_Runway_End.obj-f29c2b0c951697138ed3ffcd8f476915.mesh"]
+
+source_file="res://environments/industrial/parts/Spacestation_Structure_Runway_End.obj"
+dest_files=["res://.godot/imported/Spacestation_Structure_Runway_End.obj-f29c2b0c951697138ed3ffcd8f476915.mesh", "res://.godot/imported/Spacestation_Structure_Runway_End.obj-f29c2b0c951697138ed3ffcd8f476915.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

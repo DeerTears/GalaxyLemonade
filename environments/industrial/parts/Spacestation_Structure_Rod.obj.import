@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c5wu55kxbrvae"
+path="res://.godot/imported/Spacestation_Structure_Rod.obj-3a956dabbd25989e85142a1d583026c1.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Spacestation_Structure_Rod.obj-3a956dabbd25989e85142a1d583026c1.mesh"]
+
+source_file="res://environments/industrial/parts/Spacestation_Structure_Rod.obj"
+dest_files=["res://.godot/imported/Spacestation_Structure_Rod.obj-3a956dabbd25989e85142a1d583026c1.mesh", "res://.godot/imported/Spacestation_Structure_Rod.obj-3a956dabbd25989e85142a1d583026c1.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

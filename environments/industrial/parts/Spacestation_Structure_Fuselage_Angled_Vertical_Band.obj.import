@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://g64hcwnfd43x"
+path="res://.godot/imported/Spacestation_Structure_Fuselage_Angled_Vertical_Band.obj-a9fa37dca32e7e2e951a8555098b073e.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Spacestation_Structure_Fuselage_Angled_Vertical_Band.obj-a9fa37dca32e7e2e951a8555098b073e.mesh"]
+
+source_file="res://environments/industrial/parts/Spacestation_Structure_Fuselage_Angled_Vertical_Band.obj"
+dest_files=["res://.godot/imported/Spacestation_Structure_Fuselage_Angled_Vertical_Band.obj-a9fa37dca32e7e2e951a8555098b073e.mesh", "res://.godot/imported/Spacestation_Structure_Fuselage_Angled_Vertical_Band.obj-a9fa37dca32e7e2e951a8555098b073e.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
