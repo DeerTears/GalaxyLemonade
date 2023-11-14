@@ -1,0 +1,87 @@
+[gd_scene load_steps=9 format=3 uid="uid://x2fcgw3sgj24"]
+
+[ext_resource type="Script" path="res://player/character_controller.gd" id="1_uboi3"]
+
+[sub_resource type="SeparationRayShape3D" id="SeparationRayShape3D_5iwig"]
+length = 2.0
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_dwty8"]
+height = 1.0
+radius = 1.01
+
+[sub_resource type="BoxMesh" id="BoxMesh_eth8j"]
+size = Vector3(50, 0.5, 50)
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_bix25"]
+points = PackedVector3Array(-25, -0.25, -25, -25, 0.25, -25, 25, -0.25, -25, -25, -0.25, 25, -25, 0.25, 25, 25, 0.25, -25, 25, -0.25, 25, 25, 0.25, 25)
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_b2shr"]
+sky_top_color = Color(0.329412, 0.607843, 1, 1)
+
+[sub_resource type="Sky" id="Sky_q27mu"]
+sky_material = SubResource("ProceduralSkyMaterial_b2shr")
+
+[sub_resource type="Environment" id="Environment_fsqsg"]
+background_mode = 2
+sky = SubResource("Sky_q27mu")
+
+[node name="Node3D" type="Node3D"]
+
+[node name="Body" type="CharacterBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2, 0)
+script = ExtResource("1_uboi3")
+
+[node name="L" type="CollisionShape3D" parent="Body"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, -1, 0, 0)
+shape = SubResource("SeparationRayShape3D_5iwig")
+
+[node name="R" type="CollisionShape3D" parent="Body"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 1, 0, 0)
+shape = SubResource("SeparationRayShape3D_5iwig")
+
+[node name="U" type="CollisionShape3D" parent="Body"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, -1)
+shape = SubResource("SeparationRayShape3D_5iwig")
+
+[node name="D" type="CollisionShape3D" parent="Body"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 1)
+shape = SubResource("SeparationRayShape3D_5iwig")
+
+[node name="DR" type="CollisionShape3D" parent="Body"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0.7, 0, 0.7)
+shape = SubResource("SeparationRayShape3D_5iwig")
+
+[node name="UR" type="CollisionShape3D" parent="Body"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0.7, 0, -0.7)
+shape = SubResource("SeparationRayShape3D_5iwig")
+
+[node name="UL" type="CollisionShape3D" parent="Body"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, -0.7, 0, -0.7)
+shape = SubResource("SeparationRayShape3D_5iwig")
+
+[node name="DL" type="CollisionShape3D" parent="Body"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, -0.7, 0, 0.7)
+shape = SubResource("SeparationRayShape3D_5iwig")
+
+[node name="Cylinder" type="CollisionShape3D" parent="Body"]
+shape = SubResource("CylinderShape3D_dwty8")
+
+[node name="Camera3D" type="Camera3D" parent="Body"]
+current = true
+
+[node name="CameraTargetPosition" type="Marker3D" parent="Body"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5, 0)
+
+[node name="StaticBody3D" type="StaticBody3D" parent="."]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -2, 0)
+mesh = SubResource("BoxMesh_eth8j")
+skeleton = NodePath("../..")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -2, 0)
+shape = SubResource("ConvexPolygonShape3D_bix25")
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_fsqsg")
