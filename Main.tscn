@@ -1,6 +1,7 @@
-[gd_scene load_steps=9 format=3 uid="uid://x2fcgw3sgj24"]
+[gd_scene load_steps=10 format=3 uid="uid://x2fcgw3sgj24"]
 
 [ext_resource type="Script" path="res://player/character_controller.gd" id="1_uboi3"]
+[ext_resource type="Texture2D" uid="uid://b0tsrky1hl1ft" path="res://environments/space/starmap_2020_4k_gal.exr" id="2_yhvag"]
 
 [sub_resource type="SeparationRayShape3D" id="SeparationRayShape3D_5iwig"]
 length = 2.0
@@ -15,11 +16,11 @@ size = Vector3(50, 0.5, 50)
 [sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_bix25"]
 points = PackedVector3Array(-25, -0.25, -25, -25, 0.25, -25, 25, -0.25, -25, -25, -0.25, 25, -25, 0.25, 25, 25, 0.25, -25, 25, -0.25, 25, 25, 0.25, 25)
 
-[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_b2shr"]
-sky_top_color = Color(0.329412, 0.607843, 1, 1)
+[sub_resource type="PanoramaSkyMaterial" id="PanoramaSkyMaterial_onjjv"]
+panorama = ExtResource("2_yhvag")
 
 [sub_resource type="Sky" id="Sky_q27mu"]
-sky_material = SubResource("ProceduralSkyMaterial_b2shr")
+sky_material = SubResource("PanoramaSkyMaterial_onjjv")
 
 [sub_resource type="Environment" id="Environment_fsqsg"]
 background_mode = 2
